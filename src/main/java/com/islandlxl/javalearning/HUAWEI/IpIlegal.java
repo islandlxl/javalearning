@@ -1,8 +1,5 @@
 package com.islandlxl.javalearning.HUAWEI;
 
-import jdk.nashorn.internal.ir.WhileNode;
-import org.springframework.beans.factory.FactoryBean;
-
 import java.util.Scanner;
 
 /*
