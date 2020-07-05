@@ -19,9 +19,11 @@ import java.util.Scanner;
     public static void main(String[] args) {
 
         Scanner scanner=new Scanner(System.in);
-            String[] s=new String[2];
+
             while (scanner.hasNext()){
-                for(int i=0;i<2;i++){
+                int num = Integer.valueOf(scanner.nextLine());
+                String[] s = new String[num];
+                for(int i=0;i<num;i++){
                      s[i] = scanner.nextLine();
                 }
                 for (String ss :s) {

@@ -1,7 +1,7 @@
 package com.islandlxl.javalearning.InnerPackage;
 
 /*
-@project:com.test
+@project:com.exam
 @Title:Outter
 @Auther:lxl
 @create:2019/11/11,17:31

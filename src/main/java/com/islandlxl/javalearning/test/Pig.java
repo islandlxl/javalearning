@@ -1,7 +1,7 @@
 package com.islandlxl.javalearning.test;
 
 /*
-@project:com.islandlxl.javalearning.test
+@project:com.islandlxl.javalearning.exam
 @Title:Pig
 @Auther:lxl
 @create:2020/5/21,22:01

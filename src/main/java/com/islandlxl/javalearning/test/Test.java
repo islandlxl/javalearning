@@ -3,7 +3,7 @@ package com.islandlxl.javalearning.test;
 import java.util.List;
 
 /*
-@project:com.islandlxl.javalearning.test
+@project:com.islandlxl.javalearning.exam
 @Title:Test
 @Auther:lxl
 @create:2020/5/21,22:29
