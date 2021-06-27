@@ -1,5 +1,10 @@
 package com.islandlxl.javalearning.LeeCode.LinkedList;
 
+import org.springframework.web.servlet.tags.HtmlEscapingAwareTag;
+
+import java.util.Deque;
+import java.util.LinkedList;
+
 /*
 @project:com.LeeCode.LinkedList
 @Title:DeleteNodeFromEnd
@@ -37,11 +42,39 @@ package com.islandlxl.javalearning.LeeCode.LinkedList;
         second.next=second.next.next;
         return pre.next;
     }
-    public class ListNode{
+    public static class ListNode{
         int value;
         ListNode next;
         public ListNode(int val){
             this.value=val;
         }
+    }
+    /**
+     * 使用栈deque解决问题
+     */
+    public static ListNode removeNthFromEnd3(ListNode head,int n){
+       ListNode pre=new ListNode(0);
+       pre.next=head;
+        Deque<ListNode> deque = new LinkedList();
+        ListNode curr=pre;
+        while (curr!=null){
+            deque.push(curr);
+            curr=curr.next;
+        }
+        for (int i = 0; i < n; i++) {
+            deque.pop();
+        }
+
+        ListNode targetNode=deque.peek();
+        targetNode.next=targetNode.next.next;
+
+        return pre.next;
+    }
+
+    public static void main(String[] args) {
+        ListNode listNode = new ListNode(1);
+        ListNode listNode1 = removeNthFromEnd3(listNode, 1);
+        System.out.println(listNode1.value);
+
     }
 }

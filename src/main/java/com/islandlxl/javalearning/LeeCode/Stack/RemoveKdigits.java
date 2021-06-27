@@ -21,7 +21,6 @@ public class RemoveKdigits {
                 deque.push(chars[i]);
             }
             if (i>0){
-
                 Integer lastNum=Integer.valueOf(String.valueOf(deque.peek()));
                 Integer currentNum=Integer.valueOf(String.valueOf(chars[i]));
                 while (!deque.isEmpty()&&lastNum>currentNum&&k>0) {
