@@ -5,7 +5,7 @@ import java.math.BigInteger;
 /**
  * @PACKAGE_NAME: com.islandlxl.javalearning.LeeCode.Array
  * @DESCRIPTION:  https://leetcode-cn.com/problems/largest-number/
- * @COMMENT: 奔跑吧, 骚年
+ * @COMMENT: 奔跑吧, 骚年 --最大数
  * @USER: longxl
  * @DATE: 2021/7/10 22:45
  */
