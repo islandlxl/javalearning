@@ -1,6 +1,5 @@
 package com.islandlxl.javalearning.LeeCode.LinkedList;
 
-import com.islandlxl.javalearning.test.Test;
 
 import java.util.ArrayList;
 import java.util.List;
