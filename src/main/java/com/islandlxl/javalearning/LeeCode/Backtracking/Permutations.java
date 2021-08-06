@@ -5,6 +5,10 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * 46. 全排列
+ * https://leetcode-cn.com/problems/permutations/
+ */
 public class Permutations {
 
     public static void main(String[] args) {
