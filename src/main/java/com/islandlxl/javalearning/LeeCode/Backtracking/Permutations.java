@@ -1,17 +1,17 @@
 package com.islandlxl.javalearning.LeeCode.Backtracking;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * 46. 全排列
  * https://leetcode-cn.com/problems/permutations/
+ *
  */
+//
+// StringBuffer 类型删除 delete最后两位 delete(start,end) end 应该取大于所在位置的值
 public class Permutations {
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
@@ -38,25 +38,37 @@ public class Permutations {
         if (nums==null||nums.length==0){
             return resultLists;
         }
-        boolean[] used = new boolean[nums.length];
-        brackTrace(resultLists,0,nums,new ArrayList<Integer>());
+        brackTrace(resultLists,0,nums,new ArrayList<Integer>(),new boolean[nums.length],new StringBuffer(),new ArrayList<String>());
         return resultLists;
     }
-    public void brackTrace(List<List<Integer>> resultList,int index,int [] nums,List<Integer> subResult){
+    public void brackTrace(List<List<Integer>> resultList,int index,int [] nums,ArrayList<Integer> subResult,boolean[] traceLists,StringBuffer traceStr,List<String> resultStr){
         if (index==nums.length){
             List<Integer> copyList = new ArrayList<>();
             copyList.addAll(subResult);
-            resultList.add(copyList);
+            if (!resultStr.contains(traceStr.toString())){
+                resultList.add(copyList);
+                resultStr.add(traceStr.toString());
+            }
         }else{
             for (int i = 0; i < nums.length; i++) {
-                if (!subResult.contains(nums[i])){
+                if (!traceLists[i]){
                     subResult.add(nums[i]);
-                    brackTrace(resultList,index+1,nums,subResult);
+                    traceLists[i]=true;
+                    traceStr.append(String.valueOf(nums[i]));
+                    brackTrace(resultList,index+1,nums,subResult,traceLists,traceStr,resultStr);
                     subResult.remove(subResult.size()-1);
+                    traceLists[i]=false;
+                    if (traceStr.length()-2>=0&&traceStr.charAt(traceStr.length()-2)=='-')
+                        traceStr.deleteCharAt(traceStr.length()-1).deleteCharAt(traceStr.length()-1);
+                    else{
+                        traceStr.deleteCharAt(traceStr.length()-1);
+                    }
                 }
             }
         }
 
     }
+
+
 }
 
