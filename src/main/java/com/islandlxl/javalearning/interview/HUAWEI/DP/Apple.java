@@ -1,9 +1,9 @@
-package com.islandlxl.javalearning.HUAWEI.DP;
+package com.islandlxl.javalearning.interview.HUAWEI.DP;
 
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI.DP
+@project:com.islandlxl.javalearning.interview.HUAWEI.DP
 @Title:Apple
 @Auther:lxl
 @create:2020/7/4,11:00

@@ -1,10 +1,7 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 /*

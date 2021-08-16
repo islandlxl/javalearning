@@ -1,4 +1,4 @@
-package com.islandlxl.javalearning.HUAWEI.exam;
+package com.islandlxl.javalearning.interview.HUAWEI.exam;
 
 import java.util.*;
 

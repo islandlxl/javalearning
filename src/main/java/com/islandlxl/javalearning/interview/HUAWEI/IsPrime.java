@@ -1,11 +1,11 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI
+@project:com.islandlxl.javalearning.interview.HUAWEI
 @Title:IsPrime
 @Auther:lxl
 @create:2020/6/30,22:50

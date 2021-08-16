@@ -1,8 +1,6 @@
 package com.islandlxl.javalearning.interview.tengxun;
 
 import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -14,7 +12,7 @@ import java.util.Scanner;
 
  */
 public class IP2Integer {
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         Scanner scanner = new Scanner(System.in);
         while (scanner.hasNext()){
             String line = scanner.nextLine();
@@ -49,10 +47,8 @@ public class IP2Integer {
         return IP;
     }
 
-//    public static void main(String[] args) {
-//      long a=36;
-//
-//      System.out.println(a>>>2);
-//
-//    }
+    public static void main(String[] args) {
+
+
+    }
 }

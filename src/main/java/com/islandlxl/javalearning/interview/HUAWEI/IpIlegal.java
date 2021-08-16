@@ -1,9 +1,9 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI
+@project:com.islandlxl.javalearning.interview.HUAWEI
 @Title:IpIlegal
 @Auther:lxl
 @create:2020/7/4,16:01

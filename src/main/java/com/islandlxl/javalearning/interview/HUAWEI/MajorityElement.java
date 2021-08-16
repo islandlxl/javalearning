@@ -1,13 +1,9 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 
-import com.sun.corba.se.impl.oa.poa.POAPolicyMediatorImpl_NR_UDS;
-
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI
+@project:com.islandlxl.javalearning.interview.HUAWEI
 @Title:MajorityElement
 @Auther:lxl
 @create:2020/6/30,21:54

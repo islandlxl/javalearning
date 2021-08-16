@@ -1,9 +1,9 @@
-package com.islandlxl.javalearning.HUAWEI.Array;
+package com.islandlxl.javalearning.interview.HUAWEI.Array;
 
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI.Array
+@project:com.islandlxl.javalearning.interview.HUAWEI.Array
 @Title:Matrix
 @Auther:lxl
 @create:2020/7/4,14:45

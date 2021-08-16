@@ -1,9 +1,9 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 
 import java.util.Scanner;
 
 /*
-@project:com.islandlxl.javalearning.HUAWEI
+@project:com.islandlxl.javalearning.interview.HUAWEI
 @Title:最小公倍数
 @Auther:lxlhttps://www.nowcoder.com/practice/22948c2cad484e0291350abad86136c3?tpId=37&&tqId=21331&rp=1&ru=/ta/huawei&qru=/ta/huawei/question-ranking
 @create:2020/6/29,21:13

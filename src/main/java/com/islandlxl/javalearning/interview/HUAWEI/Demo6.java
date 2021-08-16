@@ -1,4 +1,4 @@
-package com.islandlxl.javalearning.HUAWEI;
+package com.islandlxl.javalearning.interview.HUAWEI;
 import java.util.Scanner;
 
 public class Demo6 {
