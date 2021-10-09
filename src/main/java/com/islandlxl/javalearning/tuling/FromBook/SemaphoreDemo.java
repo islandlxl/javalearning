@@ -16,7 +16,7 @@ import java.util.concurrent.Semaphore;
         try{
           semaphore.acquire();
           Thread.sleep(2000);
-            System.out.println(Thread.currentThread().getId()+":done");
+          System.out.println(Thread.currentThread().getName()+ " " +Thread.currentThread().getId()+":done");
        //   semaphore.release();
 
 
