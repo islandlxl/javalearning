@@ -21,8 +21,7 @@ public class TestCar {
                         System.out.println("=========="+Thread.currentThread().getName()+"来到停车场！");
                          if (semaphore.availablePermits()==0){
                              System.out.println("车位不足，请耐心等候！！！");
-                             Thread.sleep(5000);
-
+                             //Thread.sleep(5000);
                          }
                          semaphore.acquire();
                          System.out.println(Thread.currentThread().getName()+" 成功进入停车场！");

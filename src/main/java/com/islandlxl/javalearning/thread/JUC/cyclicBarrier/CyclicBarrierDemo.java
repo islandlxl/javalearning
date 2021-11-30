@@ -9,7 +9,7 @@ public class CyclicBarrierDemo {
 
     public static void main(String[] args) {
         CyclicBarrier cyclicBarrier = new CyclicBarrier(3, new TourGuideTask());
-        Executor excutor = Executors.newFixedThreadPool(3);
+        Executor excutor = Executors.newFixedThreadPool(10);
 
         excutor.execute(new TraverTask(cyclicBarrier,"张三",5l));
         excutor.execute(new TraverTask(cyclicBarrier,"李四",2l));
